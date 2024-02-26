@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">dev.homehosp.com</domain>
+        <!-- <domain includeSubdomains="true">localhost:8081</domain> -->
+       <trust-anchors>-->
+           <certificates src="@raw/ssl"/>
+       </trust-anchors>
+    </domain-config>
+</network-security-config>

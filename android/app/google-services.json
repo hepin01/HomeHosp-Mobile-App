@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "662983912921",
+    "project_id": "homehosp-2d051",
+    "storage_bucket": "homehosp-2d051.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662983912921:android:3e7413423046522e633dc8",
+        "android_client_info": {
+          "package_name": "com.homehosp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662983912921-65kvgqd8ksq1ufdijrqd1kgq4313klvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyng6n-a8F4hECn8Do9ARL4ZCOEIqf4lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662983912921-65kvgqd8ksq1ufdijrqd1kgq4313klvr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "662983912921-5qnfl1g6u9rsshgu0e6q64dbf89slhpn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.homehosp",
+                "app_store_id": "1663414060"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

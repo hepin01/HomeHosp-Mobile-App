@@ -1,0 +1,1083 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.homehosp"
+4    android:versionCode="2"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:8:5-80
+15-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:9:5-75
+16-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:9:22-72
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:10:5-79
+17-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:11:5-81
+18-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:11:22-78
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:12:5-66
+19-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:12:22-63
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:13:5-68
+20-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:13:22-65
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:14:5-71
+21-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:14:22-68
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:15:5-80
+22-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:15:22-77
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:16:5-77
+23-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:16:22-74
+24
+25    <uses-feature
+25-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:17:5-85
+26        android:name="android.hardware.camera"
+26-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:17:19-57
+27        android:required="true" />
+27-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:17:58-82
+28    <uses-feature
+28-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:18:5-95
+29        android:name="android.hardware.camera.autofocus"
+29-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:18:19-67
+30        android:required="true" />
+30-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:18:68-92
+31    <uses-feature
+31-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:19:5-89
+32        android:name="android.hardware.microphone"
+32-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:19:19-61
+33        android:required="false" />
+33-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:19:62-86
+34
+35    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+35-->[com.facebook.flipper:flipper:0.99.0] /Users/hiendudhat/.gradle/caches/transforms-3/cc3a3acd8b7eaf4aed0a20ff3c354f18/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+35-->[com.facebook.flipper:flipper:0.99.0] /Users/hiendudhat/.gradle/caches/transforms-3/cc3a3acd8b7eaf4aed0a20ff3c354f18/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-68
+36-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-65
+37
+38    <queries>
+38-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+39        <intent>
+39-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+40            <action android:name="android.media.action.IMAGE_CAPTURE" />
+40-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
+40-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
+41        </intent>
+42        <!-- Added to check the default browser that will host the AuthFlow. -->
+43        <intent>
+43-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:13:9-17:18
+44            <action android:name="android.intent.action.VIEW" />
+44-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+44-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+45
+46            <data android:scheme="http" />
+46-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+46-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+47        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+48        <package android:name="com.android.chrome" /> <!-- Needs to be explicitly declared on Android R+ -->
+48-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:11:9-54
+48-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:11:18-51
+49        <package android:name="com.google.android.apps.maps" />
+49-->[com.google.android.gms:play-services-maps:18.0.2] /Users/hiendudhat/.gradle/caches/transforms-3/22baebddca4bb231f20d58fe83f3d7bf/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+49-->[com.google.android.gms:play-services-maps:18.0.2] /Users/hiendudhat/.gradle/caches/transforms-3/22baebddca4bb231f20d58fe83f3d7bf/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+50    </queries>
+51
+52    <uses-feature
+52-->[:react-native-twilio-video-webrtc] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-twilio-video-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:35
+53        android:glEsVersion="0x00020000"
+53-->[:react-native-twilio-video-webrtc] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-twilio-video-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-41
+54        android:required="true" />
+54-->[:react-native-twilio-video-webrtc] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-twilio-video-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-32
+55
+56    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- Required to access Google Play Licensing -->
+56-->[:react-native-twilio-video-webrtc] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-twilio-video-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-74
+56-->[:react-native-twilio-video-webrtc] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-twilio-video-webrtc/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-71
+57    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+57-->[:rn-fetch-blob] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-73
+57-->[:rn-fetch-blob] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-70
+58    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+58-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:5-110
+58-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:26:22-107
+59    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+59-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/1619fba626355aabd4772471a644fa96/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:5-79
+59-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/1619fba626355aabd4772471a644fa96/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:25:22-76
+60    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+60-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+60-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+61    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+62    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+63    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+64    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+65    <!-- for Samsung -->
+66    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+67    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+67-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+68    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+68-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+69    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+69-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+70    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+71    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+72    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+73    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+74    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+75    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+76    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+77    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+78    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+78-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+78-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+79    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+79-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+79-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+80    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+80-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+80-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+81    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+81-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+81-->[me.leolin:ShortcutBadger:1.1.22] /Users/hiendudhat/.gradle/caches/transforms-3/da9d3c78413b35b44f4a755770608b85/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+82
+83    <application
+83-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:21:5-69:19
+84        android:name="com.homehosp.MainApplication"
+84-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:22:9-40
+85        android:allowBackup="false"
+85-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:23:9-36
+86        android:allowClearUserData="true"
+86-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:24:9-42
+87        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+87-->[androidx.core:core:1.8.0] /Users/hiendudhat/.gradle/caches/transforms-3/a41775fb6e94f60b5adbb3aba7c1a178/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+88        android:debuggable="true"
+89        android:icon="@mipmap/ic_launcher"
+89-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:25:9-43
+90        android:label="@string/app_name"
+90-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:26:9-41
+91        android:networkSecurityConfig="@xml/network_security_config"
+91-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:29:9-69
+92        android:roundIcon="@mipmap/ic_launcher_round"
+92-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:27:9-54
+93        android:supportsRtl="true"
+93-->[:react-native-call-detection] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-35
+94        android:theme="@style/AppTheme"
+94-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:28:9-40
+95        android:usesCleartextTraffic="true" >
+95-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:31:9-44
+96        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+96-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/debug/AndroidManifest.xml:11:9-86
+96-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/debug/AndroidManifest.xml:11:19-83
+97        <activity
+97-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:32:9-44:20
+98            android:name="com.homehosp.MainActivity"
+98-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:33:13-41
+99            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+99-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:34:13-90
+100            android:exported="true"
+100-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:35:13-36
+101            android:label="@string/app_name"
+101-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:36:13-45
+102            android:launchMode="singleTask"
+102-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:37:13-44
+103            android:screenOrientation="portrait"
+103-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:38:13-49
+104            android:windowSoftInputMode="adjustResize" >
+104-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:39:13-55
+105            <intent-filter>
+105-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:40:13-43:29
+106                <action android:name="android.intent.action.MAIN" />
+106-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:41:17-69
+106-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:41:25-66
+107
+108                <category android:name="android.intent.category.LAUNCHER" />
+108-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:42:17-77
+108-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:42:27-74
+109            </intent-filter>
+110        </activity>
+111
+112        <meta-data
+112-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:45:9-46:36
+113            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+113-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:45:20-96
+114            android:value="true" />
+114-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:46:13-33
+115        <meta-data
+115-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:47:9-48:55
+116            android:name="com.dieam.reactnativepushnotification.notification_color"
+116-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:47:20-91
+117            android:resource="@android:color/white" />
+117-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:48:13-52
+118
+119        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+119-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:49:9-50:102
+119-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:50:13-99
+120        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+120-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:51:9-52:104
+120-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:52:13-101
+121        <receiver
+121-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:53:9-61:20
+122            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+122-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:54:13-109
+123            android:exported="true" >
+123-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:55:13-36
+124            <intent-filter>
+124-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:56:13-60:29
+125                <action android:name="android.intent.action.BOOT_COMPLETED" />
+125-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:57:17-79
+125-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:57:25-76
+126                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+126-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:58:17-82
+126-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:58:25-79
+127                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+127-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:59:17-82
+127-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:59:25-79
+128            </intent-filter>
+129        </receiver>
+130
+131        <service
+131-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:62:9-68:19
+132            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+132-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:63:13-107
+133            android:exported="false" >
+133-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:64:13-37
+134            <intent-filter>
+134-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:65:13-67:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:66:17-78
+135-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:66:25-75
+136            </intent-filter>
+137        </service>
+138
+139        <meta-data
+139-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:36
+140            android:name="firebase_analytics_collection_enabled"
+140-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-65
+141            android:value="true" />
+141-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-33
+142        <meta-data
+142-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:37
+143            android:name="firebase_analytics_collection_deactivated"
+143-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-69
+144            android:value="false" />
+144-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-34
+145        <meta-data
+145-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-20:36
+146            android:name="google_analytics_adid_collection_enabled"
+146-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-68
+147            android:value="true" />
+147-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-33
+148        <meta-data
+148-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-23:36
+149            android:name="google_analytics_ssaid_collection_enabled"
+149-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-69
+150            android:value="true" />
+150-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-33
+151        <meta-data
+151-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-26:36
+152            android:name="google_analytics_default_allow_ad_personalization_signals"
+152-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-85
+153            android:value="true" />
+153-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-33
+154        <meta-data
+154-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-29:36
+155            android:name="google_analytics_automatic_screen_reporting_enabled"
+155-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-79
+156            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+156-->[:react-native-firebase_analytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-33
+157        <meta-data
+157-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:37
+158            android:name="firebase_crashlytics_collection_enabled"
+158-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-67
+159            android:value="false" />
+159-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-34
+160
+161        <provider
+161-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:38
+162            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+162-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-104
+163            android:authorities="com.homehosp.reactnativefirebasecrashlyticsinitprovider"
+163-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-94
+164            android:exported="false"
+164-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+165            android:initOrder="98" />
+165-->[:react-native-firebase_crashlytics] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-35
+166
+167        <meta-data
+167-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+168            android:name="app_data_collection_default_enabled"
+168-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+169            android:value="true" />
+169-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+170
+171        <service
+171-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+172            android:name="com.google.firebase.components.ComponentDiscoveryService"
+172-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+173            android:directBootAware="true"
+173-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+174            android:exported="false" >
+174-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+175            <meta-data
+175-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+176                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+176-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+178            <meta-data
+178-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/1619fba626355aabd4772471a644fa96/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:31:13-33:85
+179                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+179-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/1619fba626355aabd4772471a644fa96/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:32:17-139
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.android.gms:play-services-measurement-api:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/1619fba626355aabd4772471a644fa96/transformed/jetified-play-services-measurement-api-21.2.1/AndroidManifest.xml:33:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+182                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+182-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/hiendudhat/.gradle/caches/transforms-3/a4f058684605bdf94d0e4f51f2353a99/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:34:13-36:85
+185                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+185-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/hiendudhat/.gradle/caches/transforms-3/a4f058684605bdf94d0e4f51f2353a99/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:35:17-122
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-crashlytics-ndk:18.3.6] /Users/hiendudhat/.gradle/caches/transforms-3/a4f058684605bdf94d0e4f51f2353a99/transformed/jetified-firebase-crashlytics-ndk-18.3.6/AndroidManifest.xml:36:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/hiendudhat/.gradle/caches/transforms-3/928ae1ede56d073e0b1e8f828afe4059/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:17:13-19:85
+188                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+188-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/hiendudhat/.gradle/caches/transforms-3/928ae1ede56d073e0b1e8f828afe4059/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:18:17-115
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-crashlytics:18.3.6] /Users/hiendudhat/.gradle/caches/transforms-3/928ae1ede56d073e0b1e8f828afe4059/transformed/jetified-firebase-crashlytics-18.3.6/AndroidManifest.xml:19:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hiendudhat/.gradle/caches/transforms-3/fa474611d833c94238f7c5e12cf89a55/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+191                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+191-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hiendudhat/.gradle/caches/transforms-3/fa474611d833c94238f7c5e12cf89a55/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hiendudhat/.gradle/caches/transforms-3/fa474611d833c94238f7c5e12cf89a55/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/6c1319745fe74249636efee8cfc61fed/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:26:13-28:85
+194                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+194-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/6c1319745fe74249636efee8cfc61fed/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:27:17-133
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-dynamic-links:21.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/6c1319745fe74249636efee8cfc61fed/transformed/jetified-firebase-dynamic-links-21.1.0/AndroidManifest.xml:28:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-installations:17.1.3] /Users/hiendudhat/.gradle/caches/transforms-3/0f4e5ee74b2361c8c179a273427eac8b/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+197                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+197-->[com.google.firebase:firebase-installations:17.1.3] /Users/hiendudhat/.gradle/caches/transforms-3/0f4e5ee74b2361c8c179a273427eac8b/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-installations:17.1.3] /Users/hiendudhat/.gradle/caches/transforms-3/0f4e5ee74b2361c8c179a273427eac8b/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+199        </service>
+200
+201        <provider
+201-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+202            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+202-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+203            android:authorities="com.homehosp.reactnativefirebaseappinitprovider"
+203-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+204            android:exported="false"
+204-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+205            android:initOrder="99" />
+205-->[:react-native-firebase_app] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+206        <provider
+206-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+207            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+207-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-75
+208            android:authorities="com.homehosp.provider"
+208-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-60
+209            android:exported="false"
+209-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+210            android:grantUriPermissions="true" >
+210-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+211            <meta-data
+211-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+212                android:name="android.support.FILE_PROVIDER_PATHS"
+212-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+213                android:resource="@xml/file_viewer_provider_paths" />
+213-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+214        </provider>
+215        <provider
+215-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-24:20
+216            android:name="androidx.core.content.FileProvider"
+216-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-62
+217            android:authorities="com.homehosp.provider"
+217-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-60
+218            android:exported="false"
+218-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+219            android:grantUriPermissions="true" >
+219-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-47
+220            <meta-data
+220-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+221                android:name="android.support.FILE_PROVIDER_PATHS"
+221-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+222                android:resource="@xml/provider_paths" />
+222-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+223        </provider>
+224
+225        <activity
+225-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:72
+226            android:name="com.yalantis.ucrop.UCropActivity"
+226-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-60
+227            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+227-->[:react-native-image-crop-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-69
+228
+229        <provider
+229-->[:react-native-image-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+230            android:name="com.imagepicker.ImagePickerProvider"
+230-->[:react-native-image-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+231            android:authorities="com.homehosp.imagepickerprovider"
+231-->[:react-native-image-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+232            android:exported="false"
+232-->[:react-native-image-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+233            android:grantUriPermissions="true" >
+233-->[:react-native-image-picker] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+234            <meta-data
+234-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+235                android:name="android.support.FILE_PROVIDER_PATHS"
+235-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+236                android:resource="@xml/imagepicker_provider_paths" />
+236-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+237        </provider>
+238        <provider
+238-->[:react-native-webview] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+239            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+239-->[:react-native-webview] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+240            android:authorities="com.homehosp.fileprovider"
+240-->[:react-native-webview] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+241            android:exported="false"
+241-->[:react-native-webview] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+242            android:grantUriPermissions="true" >
+242-->[:react-native-webview] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+243            <meta-data
+243-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+244                android:name="android.support.FILE_PROVIDER_PATHS"
+244-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+245                android:resource="@xml/file_provider_paths" />
+245-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+246        </provider>
+247        <provider
+247-->[:rn-fetch-blob] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-40:20
+248            android:name="com.RNFetchBlob.Utils.FileProvider"
+248-->[:rn-fetch-blob] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-62
+249            android:authorities="com.homehosp.provider"
+249-->[:rn-fetch-blob] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-60
+250            android:exported="false"
+250-->[:rn-fetch-blob] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-37
+251            android:grantUriPermissions="true" >
+251-->[:rn-fetch-blob] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-47
+252            <meta-data
+252-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+253                android:name="android.support.FILE_PROVIDER_PATHS"
+253-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+254                android:resource="@xml/provider_paths" />
+254-->[:react-native-file-viewer] /Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+255        </provider>
+256
+257        <activity
+257-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:8:9-12:58
+258            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+258-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:9:13-80
+259            android:exported="false"
+259-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:10:13-37
+260            android:theme="@style/StripePaymentSheetDefaultTheme"
+260-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:11:13-66
+261            android:windowSoftInputMode="adjustResize" />
+261-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:12:13-55
+262        <activity
+262-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:13:9-17:58
+263            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+263-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:14:13-82
+264            android:exported="false"
+264-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:15:13-37
+265            android:theme="@style/StripePaymentSheetDefaultTheme"
+265-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:16:13-66
+266            android:windowSoftInputMode="adjustResize" />
+266-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:17:13-55
+267        <activity
+267-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:18:9-22:58
+268            android:name="com.stripe.android.customersheet.CustomerSheetActivity"
+268-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:19:13-82
+269            android:exported="false"
+269-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:20:13-37
+270            android:theme="@style/StripePaymentSheetDefaultTheme"
+270-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:21:13-66
+271            android:windowSoftInputMode="adjustResize" />
+271-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:22:13-55
+272        <activity
+272-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:23:9-26:69
+273            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+273-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:24:13-97
+274            android:exported="false"
+274-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:25:13-37
+275            android:theme="@style/StripePaymentSheetDefaultTheme" />
+275-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:26:13-66
+276        <activity
+276-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:27:9-30:69
+277            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+277-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:28:13-105
+278            android:exported="false"
+278-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:29:13-37
+279            android:theme="@style/StripePaymentSheetDefaultTheme" />
+279-->[com.stripe:paymentsheet:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/3bbaae289b1cf536f7db90b31517ad23/transformed/jetified-paymentsheet-20.25.8/AndroidManifest.xml:30:13-66
+280        <activity
+280-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:8:9-13:61
+281            android:name="com.stripe.android.link.LinkForegroundActivity"
+281-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:9:13-74
+282            android:autoRemoveFromRecents="true"
+282-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:10:13-49
+283            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|screenSize|smallestScreenSize"
+283-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:11:13-115
+284            android:launchMode="singleTop"
+284-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:12:13-43
+285            android:theme="@style/StripeTransparentTheme" />
+285-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:13:13-58
+286        <activity
+286-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:14:9-31:20
+287            android:name="com.stripe.android.link.LinkRedirectHandlerActivity"
+287-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:15:13-79
+288            android:autoRemoveFromRecents="true"
+288-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:16:13-49
+289            android:exported="true"
+289-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:17:13-36
+290            android:launchMode="singleInstance"
+290-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:18:13-48
+291            android:theme="@style/StripeTransparentTheme" >
+291-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:19:13-58
+292            <intent-filter>
+292-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:20:13-30:29
+293                <action android:name="android.intent.action.VIEW" />
+293-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+293-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+294
+295                <category android:name="android.intent.category.DEFAULT" />
+295-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:23:17-76
+295-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:23:27-73
+296                <category android:name="android.intent.category.BROWSABLE" />
+296-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+296-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+297
+298                <data
+298-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+299                    android:host="complete"
+299-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+300                    android:path="/com.homehosp"
+300-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:28:21-53
+301                    android:scheme="link-popup" />
+301-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+302            </intent-filter>
+303        </activity>
+304        <activity
+304-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:21:9-64:20
+305            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+305-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:22:13-109
+306            android:exported="true" >
+306-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:23:13-36
+307            <intent-filter>
+307-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:24:13-63:29
+308                <action android:name="android.intent.action.VIEW" />
+308-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+308-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+309
+310                <category android:name="android.intent.category.DEFAULT" />
+310-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:23:17-76
+310-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:23:27-73
+311                <category android:name="android.intent.category.BROWSABLE" />
+311-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+311-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+312
+313                <!-- Returning from app2app: return_url is triggered to reopen web AuthFlow and poll accounts. -->
+314                <data
+314-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+315                    android:host="link-accounts"
+315-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+316                    android:pathPrefix="/com.homehosp/authentication_return"
+317                    android:scheme="stripe-auth" />
+317-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+318
+319                <!-- Returning from app2app: return_url is triggered to reopen native AuthFlow and poll accounts. -->
+320                <data
+320-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+321                    android:host="link-native-accounts"
+321-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+322                    android:pathPrefix="/com.homehosp/authentication_return"
+323                    android:scheme="stripe-auth" />
+323-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+324
+325                <!-- End of web AuthFlow success and cancel URIs that begin with "stripe-auth://link-accounts/{app-id}/...” -->
+326                <data
+326-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+327                    android:host="link-accounts"
+327-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+328                    android:path="/com.homehosp/success"
+328-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:28:21-53
+329                    android:scheme="stripe-auth" />
+329-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+330                <data
+330-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+331                    android:host="link-accounts"
+331-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+332                    android:path="/com.homehosp/cancel"
+332-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:28:21-53
+333                    android:scheme="stripe-auth" />
+333-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+334
+335                <!-- Opening app2app: Web flow triggers stripe-auth://native-redirect/{app-id}/http://web-that-redirects-to-native -->
+336                <data
+336-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+337                    android:host="native-redirect"
+337-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+338                    android:pathPrefix="/com.homehosp"
+339                    android:scheme="stripe-auth" />
+339-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+340
+341                <!-- Accepts success/cancel/fail URIs that begin with "stripe://auth-redirect” -->
+342                <data
+342-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+343                    android:host="auth-redirect"
+343-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+344                    android:pathPrefix="/com.homehosp"
+345                    android:scheme="stripe" />
+345-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+346            </intent-filter>
+347        </activity>
+348        <activity
+348-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:65:9-68:57
+349            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+349-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:66:13-101
+350            android:exported="false"
+350-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:67:13-37
+351            android:theme="@style/StripeDefaultTheme" />
+351-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:68:13-54
+352        <activity
+352-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:69:9-73:58
+353            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+353-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:70:13-110
+354            android:exported="false"
+354-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:71:13-37
+355            android:theme="@style/StripeDefaultTheme"
+355-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:72:13-54
+356            android:windowSoftInputMode="adjustResize" />
+356-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:73:13-55
+357
+358        <provider
+358-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:75:9-79:43
+359            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+359-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:76:13-114
+360            android:authorities="com.homehosp.financialconnections-init"
+360-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:77:13-77
+361            android:exported="false"
+361-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:78:13-37
+362            android:multiprocess="true" />
+362-->[com.stripe:financial-connections:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f5bda4be26c94de95b0083dfd8a0ba40/transformed/jetified-financial-connections-20.25.8/AndroidManifest.xml:79:13-40
+363
+364        <activity
+364-->[com.stripe:payments-ui-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/655e99420cd77897a3325cee84e8ccf4/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:8:9-11:69
+365            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+365-->[com.stripe:payments-ui-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/655e99420cd77897a3325cee84e8ccf4/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:9:13-80
+366            android:exported="false"
+366-->[com.stripe:payments-ui-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/655e99420cd77897a3325cee84e8ccf4/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:10:13-37
+367            android:theme="@style/StripePaymentSheetDefaultTheme" />
+367-->[com.stripe:payments-ui-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/655e99420cd77897a3325cee84e8ccf4/transformed/jetified-payments-ui-core-20.25.8/AndroidManifest.xml:11:13-66
+368        <activity
+368-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:15:9-18:57
+369            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+369-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:16:13-76
+370            android:exported="false"
+370-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:17:13-37
+371            android:theme="@style/StripeDefaultTheme" />
+371-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:18:13-54
+372        <activity
+372-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:19:9-22:57
+373            android:name="com.stripe.android.view.PaymentMethodsActivity"
+373-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:20:13-74
+374            android:exported="false"
+374-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:21:13-37
+375            android:theme="@style/StripeDefaultTheme" />
+375-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:22:13-54
+376        <activity
+376-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:23:9-26:57
+377            android:name="com.stripe.android.view.PaymentFlowActivity"
+377-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:24:13-71
+378            android:exported="false"
+378-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:25:13-37
+379            android:theme="@style/StripeDefaultTheme" />
+379-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:26:13-54
+380        <activity
+380-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:27:9-31:58
+381            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+381-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:28:13-78
+382            android:exported="false"
+382-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:29:13-37
+383            android:theme="@style/StripeDefaultTheme"
+383-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:30:13-54
+384            android:windowSoftInputMode="adjustResize" />
+384-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:31:13-55
+385        <activity
+385-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:32:9-35:61
+386            android:name="com.stripe.android.view.PaymentRelayActivity"
+386-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:33:13-72
+387            android:exported="false"
+387-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:34:13-37
+388            android:theme="@style/StripeTransparentTheme" />
+388-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:35:13-58
+389        <!--
+390        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+391        launched the browser Activity will also handle the return URL deep link.
+392        -->
+393        <activity
+393-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:41:9-45:61
+394            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+394-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:42:13-85
+395            android:exported="false"
+395-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:43:13-37
+396            android:launchMode="singleTask"
+396-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:44:13-44
+397            android:theme="@style/StripeTransparentTheme" />
+397-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:45:13-58
+398        <activity
+398-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:46:9-63:20
+399            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+399-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:47:13-88
+400            android:exported="true"
+400-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:48:13-36
+401            android:launchMode="singleTask"
+401-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:49:13-44
+402            android:theme="@style/StripeTransparentTheme" >
+402-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:50:13-58
+403            <intent-filter>
+403-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:51:13-62:29
+404                <action android:name="android.intent.action.VIEW" />
+404-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:17-69
+404-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:21:25-66
+405
+406                <category android:name="android.intent.category.DEFAULT" />
+406-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:23:17-76
+406-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:23:27-73
+407                <category android:name="android.intent.category.BROWSABLE" />
+407-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:17-78
+407-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:24:27-75
+408
+409                <!-- Must match `DefaultReturnUrl#value`. -->
+410                <data
+410-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:26:17-29:51
+411                    android:host="payment_return_url"
+411-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:27:21-44
+412                    android:path="/com.homehosp"
+412-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:28:21-53
+413                    android:scheme="stripesdk" />
+413-->[com.stripe:link:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/f9aa728d00d6bc08d315f553d9c60b64/transformed/jetified-link-20.25.8/AndroidManifest.xml:29:21-48
+414            </intent-filter>
+415        </activity>
+416        <activity
+416-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:64:9-67:57
+417            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+417-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:65:13-114
+418            android:exported="false"
+418-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:66:13-37
+419            android:theme="@style/StripeDefaultTheme" />
+419-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:67:13-54
+420        <activity
+420-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:68:9-71:66
+421            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+421-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:69:13-90
+422            android:exported="false"
+422-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:70:13-37
+423            android:theme="@style/StripeGooglePayDefaultTheme" />
+423-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:71:13-63
+424        <activity
+424-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:72:9-75:66
+425            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+425-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:73:13-103
+426            android:exported="false"
+426-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:74:13-37
+427            android:theme="@style/StripeGooglePayDefaultTheme" />
+427-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:75:13-63
+428        <activity
+428-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:76:9-79:68
+429            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+429-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:77:13-107
+430            android:exported="false"
+430-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:78:13-37
+431            android:theme="@style/StripePayLauncherDefaultTheme" />
+431-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:79:13-65
+432        <activity
+432-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:80:9-83:61
+433            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+433-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:81:13-97
+434            android:exported="false"
+434-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:82:13-37
+435            android:theme="@style/StripeTransparentTheme" />
+435-->[com.stripe:payments-core:20.25.8] /Users/hiendudhat/.gradle/caches/transforms-3/5936b452ad309cb88210cfe5fe91346e/transformed/jetified-payments-core-20.25.8/AndroidManifest.xml:83:13-58
+436        <activity
+436-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/hiendudhat/.gradle/caches/transforms-3/1424e6c1afb56123995dda1c9e2d1e26/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:8:9-11:54
+437            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+437-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/hiendudhat/.gradle/caches/transforms-3/1424e6c1afb56123995dda1c9e2d1e26/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:9:13-81
+438            android:exported="false"
+438-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/hiendudhat/.gradle/caches/transforms-3/1424e6c1afb56123995dda1c9e2d1e26/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:10:13-37
+439            android:theme="@style/Stripe3DS2Theme" />
+439-->[com.stripe:stripe-3ds2-android:6.1.7] /Users/hiendudhat/.gradle/caches/transforms-3/1424e6c1afb56123995dda1c9e2d1e26/transformed/jetified-stripe-3ds2-android-6.1.7/AndroidManifest.xml:11:13-51
+440
+441        <receiver
+441-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:29:9-33:20
+442            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+442-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:30:13-85
+443            android:enabled="true"
+443-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:31:13-35
+444            android:exported="false" >
+444-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:32:13-37
+445        </receiver>
+446
+447        <service
+447-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:35:9-38:40
+448            android:name="com.google.android.gms.measurement.AppMeasurementService"
+448-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:36:13-84
+449            android:enabled="true"
+449-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:37:13-35
+450            android:exported="false" />
+450-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:38:13-37
+451        <service
+451-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:39:9-43:72
+452            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+452-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:40:13-87
+453            android:enabled="true"
+453-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:41:13-35
+454            android:exported="false"
+454-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:42:13-37
+455            android:permission="android.permission.BIND_JOB_SERVICE" />
+455-->[com.google.android.gms:play-services-measurement:21.2.1] /Users/hiendudhat/.gradle/caches/transforms-3/fb5958134e71f895ea715bff7e7073d7/transformed/jetified-play-services-measurement-21.2.1/AndroidManifest.xml:43:13-69
+456
+457        <receiver
+457-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+458            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+458-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+459            android:exported="true"
+459-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+460            android:permission="com.google.android.c2dm.permission.SEND" >
+460-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+461            <intent-filter>
+461-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:35:13-37:29
+462                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+462-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:36:17-81
+462-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:36:25-78
+463            </intent-filter>
+464        </receiver>
+465        <!--
+466             FirebaseMessagingService performs security checks at runtime,
+467             but set to not exported to explicitly avoid allowing another app to call it.
+468        -->
+469        <service
+469-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+470            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+470-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+471            android:directBootAware="true"
+471-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+472            android:exported="false" >
+472-->[com.google.firebase:firebase-messaging:23.1.2] /Users/hiendudhat/.gradle/caches/transforms-3/ae4cd9eea18a83256fa621c5f14c7742/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+473            <intent-filter android:priority="-500" >
+473-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:65:13-67:29
+474                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+474-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:66:17-78
+474-->/Users/hiendudhat/Desktop/Hiren/HomeHosp-Mobile-App/android/app/src/main/AndroidManifest.xml:66:25-75
+475            </intent-filter>
+476        </service>
+477        <service
+477-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/e51bf9086e0177f2070d0d081581a0b8/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+478            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+478-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/e51bf9086e0177f2070d0d081581a0b8/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+479            android:exported="false" >
+479-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/e51bf9086e0177f2070d0d081581a0b8/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+480            <meta-data
+480-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/e51bf9086e0177f2070d0d081581a0b8/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+481                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+481-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/e51bf9086e0177f2070d0d081581a0b8/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+482                android:value="cct" />
+482-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/e51bf9086e0177f2070d0d081581a0b8/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+483        </service>
+484        <service
+484-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/b882dbed6612bacde7133631afc77637/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+485            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+485-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/b882dbed6612bacde7133631afc77637/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+486            android:exported="false"
+486-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/b882dbed6612bacde7133631afc77637/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+487            android:permission="android.permission.BIND_JOB_SERVICE" >
+487-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/b882dbed6612bacde7133631afc77637/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+488        </service>
+489
+490        <receiver
+490-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/b882dbed6612bacde7133631afc77637/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+491            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+491-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/b882dbed6612bacde7133631afc77637/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+492            android:exported="false" />
+492-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/hiendudhat/.gradle/caches/transforms-3/b882dbed6612bacde7133631afc77637/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+493
+494        <provider
+494-->[com.google.firebase:firebase-common:20.3.2] /Users/hiendudhat/.gradle/caches/transforms-3/291fe453054feb4eb6dcc8ce6c900dd0/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+495            android:name="com.google.firebase.provider.FirebaseInitProvider"
+495-->[com.google.firebase:firebase-common:20.3.2] /Users/hiendudhat/.gradle/caches/transforms-3/291fe453054feb4eb6dcc8ce6c900dd0/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+496            android:authorities="com.homehosp.firebaseinitprovider"
+496-->[com.google.firebase:firebase-common:20.3.2] /Users/hiendudhat/.gradle/caches/transforms-3/291fe453054feb4eb6dcc8ce6c900dd0/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+497            android:directBootAware="true"
+497-->[com.google.firebase:firebase-common:20.3.2] /Users/hiendudhat/.gradle/caches/transforms-3/291fe453054feb4eb6dcc8ce6c900dd0/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+498            android:exported="false"
+498-->[com.google.firebase:firebase-common:20.3.2] /Users/hiendudhat/.gradle/caches/transforms-3/291fe453054feb4eb6dcc8ce6c900dd0/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+499            android:initOrder="100" />
+499-->[com.google.firebase:firebase-common:20.3.2] /Users/hiendudhat/.gradle/caches/transforms-3/291fe453054feb4eb6dcc8ce6c900dd0/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+500
+501        <activity
+501-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+502            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+502-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+503            android:excludeFromRecents="true"
+503-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+504            android:exported="false"
+504-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+505            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+505-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+506        <!--
+507            Service handling Google Sign-In user revocation. For apps that do not integrate with
+508            Google Sign-In, this service will never be started.
+509        -->
+510        <service
+510-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+511            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+511-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+512            android:exported="true"
+512-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+513            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+513-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+514            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+514-->[com.google.android.gms:play-services-auth:20.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/aceffb055b0fbd2e50705930dce8d795/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+515        <uses-library
+515-->[com.google.android.gms:play-services-maps:18.0.2] /Users/hiendudhat/.gradle/caches/transforms-3/22baebddca4bb231f20d58fe83f3d7bf/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+516            android:name="org.apache.http.legacy"
+516-->[com.google.android.gms:play-services-maps:18.0.2] /Users/hiendudhat/.gradle/caches/transforms-3/22baebddca4bb231f20d58fe83f3d7bf/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+517            android:required="false" />
+517-->[com.google.android.gms:play-services-maps:18.0.2] /Users/hiendudhat/.gradle/caches/transforms-3/22baebddca4bb231f20d58fe83f3d7bf/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+518
+519        <activity
+519-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiendudhat/.gradle/caches/transforms-3/d5da24bbb64d35804675b19eacdfb6f5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+520            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+520-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiendudhat/.gradle/caches/transforms-3/d5da24bbb64d35804675b19eacdfb6f5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+521            android:exported="false"
+521-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiendudhat/.gradle/caches/transforms-3/d5da24bbb64d35804675b19eacdfb6f5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+522            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+522-->[com.google.android.gms:play-services-base:18.0.1] /Users/hiendudhat/.gradle/caches/transforms-3/d5da24bbb64d35804675b19eacdfb6f5/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+523
+524        <provider
+524-->[androidx.emoji2:emoji2:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/19eaa319555faa08472e08320cbad300/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+525            android:name="androidx.startup.InitializationProvider"
+525-->[androidx.emoji2:emoji2:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/19eaa319555faa08472e08320cbad300/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+526            android:authorities="com.homehosp.androidx-startup"
+526-->[androidx.emoji2:emoji2:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/19eaa319555faa08472e08320cbad300/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+527            android:exported="false" >
+527-->[androidx.emoji2:emoji2:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/19eaa319555faa08472e08320cbad300/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+528            <meta-data
+528-->[androidx.emoji2:emoji2:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/19eaa319555faa08472e08320cbad300/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+529                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+529-->[androidx.emoji2:emoji2:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/19eaa319555faa08472e08320cbad300/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+530                android:value="androidx.startup" />
+530-->[androidx.emoji2:emoji2:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/19eaa319555faa08472e08320cbad300/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+531            <meta-data
+531-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hiendudhat/.gradle/caches/transforms-3/d6dae5327ebc511aa5796cfa85f6818c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+532                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+532-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hiendudhat/.gradle/caches/transforms-3/d6dae5327ebc511aa5796cfa85f6818c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+533                android:value="androidx.startup" />
+533-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hiendudhat/.gradle/caches/transforms-3/d6dae5327ebc511aa5796cfa85f6818c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+534            <meta-data
+534-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+535                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+535-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+536                android:value="androidx.startup" />
+536-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+537        </provider>
+538
+539        <meta-data
+539-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/8bc02e775ee060150570a205070476c1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+540            android:name="com.google.android.gms.version"
+540-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/8bc02e775ee060150570a205070476c1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+541            android:value="@integer/google_play_services_version" />
+541-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/8bc02e775ee060150570a205070476c1/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+542
+543        <receiver
+543-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+544            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+544-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+545            android:directBootAware="false"
+545-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+546            android:enabled="true"
+546-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+547            android:exported="true"
+547-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+548            android:permission="android.permission.DUMP" >
+548-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+549            <intent-filter>
+549-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+550                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+550-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+550-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+551            </intent-filter>
+552            <intent-filter>
+552-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+553                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+553-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+553-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+554            </intent-filter>
+555            <intent-filter>
+555-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+556                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+556-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+556-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+557            </intent-filter>
+558            <intent-filter>
+558-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+559                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+559-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+559-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hiendudhat/.gradle/caches/transforms-3/f5a1d12d616e89a55b885e917c6e6350/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+560            </intent-filter>
+561        </receiver>
+562
+563        <meta-data
+563-->[com.google.android.instantapps:instantapps:1.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/e18935ae6a3c0164fef01c62167868e2/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+564            android:name="aia-compat-api-min-version"
+564-->[com.google.android.instantapps:instantapps:1.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/e18935ae6a3c0164fef01c62167868e2/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
+565            android:value="1" />
+565-->[com.google.android.instantapps:instantapps:1.1.0] /Users/hiendudhat/.gradle/caches/transforms-3/e18935ae6a3c0164fef01c62167868e2/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+566    </application>
+567
+568</manifest>
